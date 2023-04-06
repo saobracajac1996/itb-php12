@@ -1,0 +1,56 @@
+.klasa {
+    color: purple;
+}
+
+#p1 {
+    color: brown;
+}
+.moja_klasa{
+    text-align: right;
+}
+/*
+div p {
+    font-size: 30px;
+}
+
+div>p {
+    font-size: 30px;
+}
+
+div+p {
+    font-size: 30px;
+}
+*/
+div~p {
+    font-size: 30px;
+}
+
+body a:visited {
+    color: green;
+    
+}
+body a:link {
+    color: violet;
+}
+body a:hover {
+    background-color: blue
+}
+body a:active {
+    font-size: 24px;
+}
+/*
+p:first-child {
+border: 5px dotted silver;
+}
+
+p:first-of-type {
+border: 5px dotted silver;
+}
+
+p:nth-of-type(2) {
+border: 5px dotted silver;
+}
+*/
+li:nth-child(odd) {
+color: red;
+}
