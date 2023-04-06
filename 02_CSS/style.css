@@ -54,3 +54,7 @@ border: 5px dotted silver;
 li:nth-child(odd) {
 color: red;
 }
+
+h6 {
+    color: purple;
+}
